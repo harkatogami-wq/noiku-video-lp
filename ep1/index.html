@@ -22,6 +22,7 @@
     --ink:#3D3532;
     --ink-soft:#6E625C;
     --gold:#E3A23D;
+    --teal:#5FA39A;
     --radius-lg:24px;
     --radius-md:16px;
     --shadow-soft:0 16px 34px -20px rgba(90,60,55,0.35);
@@ -123,6 +124,29 @@
   .article ul{margin:0 0 16px;padding-left:22px;font-size:15px;}
   .article li{margin-bottom:6px;}
 
+  .list-card{
+    position:relative;
+    margin:34px 0 28px;
+    padding:34px 26px 26px;
+    background:var(--paper);
+    border:2px solid var(--rose-mid);
+    border-radius:20px;
+  }
+  .list-card .ribbon{
+    position:absolute;top:-26px;left:0;
+    background:var(--rose-deep);color:#fff;
+    font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:16px;
+    padding:12px 22px;border-radius:14px;line-height:1.3;
+  }
+  .list-card ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:20px;}
+  .list-card li{display:flex;align-items:flex-start;gap:13px;font-size:15.5px;color:var(--ink);margin:0;}
+  .list-card .num{
+    flex-shrink:0;width:26px;height:26px;border-radius:50%;
+    background:var(--teal);color:#fff;font-family:"Zen Maru Gothic",sans-serif;
+    font-weight:700;font-size:12.5px;display:flex;align-items:center;justify-content:center;
+    margin-top:1px;
+  }
+
   .comment-section{
     background:var(--paper);border:1px solid var(--gray-line);
     border-radius:var(--radius-lg);padding:26px 24px;margin:44px 0;box-shadow:var(--shadow-soft);
@@ -218,6 +242,14 @@
         <p>脳育コンパスとは、脳科学を活用した育児・知育メソッドです。脳科学と聞くと、難しそうに感じられるかもしれませんが、やることはとてもシンプル。日々の遊びや声かけを、ちょっと意識して変えるだけで、子どもの可能性や人間性を育むことができます。誰もが再現できて、確かな効果を感じられる育児メソッドです。</p>
 
         <h2>学ぶことで得られる3つのメリット</h2>
+        <div class="list-card">
+        <span class="ribbon">脳育コンパスを学ぶ3つのメリット</span>
+        <ol>
+        <li><span class="num">1</span>癇癪やYouTube漬けなどの困りごとが解決する</li>
+        <li><span class="num">2</span>周りの目を気にせず、ママの気持ちが楽になる</li>
+        <li><span class="num">3</span>子どもの才能を無限に伸ばすことができる</li>
+        </ol>
+        </div>
         <p><strong>1つめ：</strong>癇癪やYouTube漬けといった困りごとや悪習慣を、解決していくことができます。困った行動が出ても、ママ自身が落ち着いて対応できるようになり、その対応を通して、子ども自身も少しずつ感情をコントロールできるように促していけます。感情を押さえつけるのではなく、自分でうまくコントロールできるように育てていく。これが脳育コンパスの大きな特徴です。</p>
         <p><strong>2つめ：</strong>育児について、周りの目を気にする必要がなくなり、気持ちが楽になります。子どもが泣いたり癇癪を起こす理由がわかるようになるので、「なんとかしなきゃ」と焦ることもなくなりますし、どう接したらいいかが分かるようになります。</p>
         <p><strong>3つめ：</strong>子どもの才能を伸ばすことができます。手先の器用さ、空間認知能力、運動能力、言語、記憶力など、さまざまな能力を伸ばすことができます。</p>
@@ -231,6 +263,14 @@
         <p>多くの育児法や情報は「こうすればうまくいく」という方法に焦点を当てています。けれど「なぜその行動が起きているのか」という根本の理由や、子どもの脳の状態までは触れられていないことが多いんです。だからこそ、行動の「表面」ではなく「なぜそうなるのか」という脳の仕組みを知って、一人ひとりに合った関わり方を見つけることが大切です。</p>
 
         <h2>脳育コンパスで学ぶ、3つのこと</h2>
+        <div class="list-card">
+        <span class="ribbon">脳育コンパスで学ぶ3つのこと</span>
+        <ol>
+        <li><span class="num">1</span>脳科学の基本を知る</li>
+        <li><span class="num">2</span>遊びの中に脳科学を取り入れる</li>
+        <li><span class="num">3</span>日常の困りごとへの対応を知る</li>
+        </ol>
+        </div>
         <p><strong>①脳科学の基本を知ること。</strong>専門家になるわけではありません。「子どもの脳がどんなふうに成長するのか」「なぜ癇癪やYouTube依存が起きるのか」、そういったポイントだけをシンプルに学びます。</p>
         <p><strong>②遊びの中に脳科学を取り入れること。</strong>普段の遊びを少し工夫するだけで、感情をコントロールする力、自分で考える力、挑戦する力が自然に育ち、言語・記憶・空間認知・運動能力などの才能も伸びていきます。</p>
         <p><strong>③日常の困りごとへの対応を知ること。</strong>駄々やワガママ、兄弟げんか、トイトレなど、避けて通れない場面で、感情に振り回されずに落ち着いて対応できる方法を学びます。</p>
