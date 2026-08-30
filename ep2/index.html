@@ -104,13 +104,10 @@
   .video-box .vb-text{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:14.5px;}
   .video-box .vb-sub{font-size:11.5px;opacity:.85;margin-top:4px;}
 
-  .watch-cta{
-    display:inline-flex;align-items:center;justify-content:center;gap:8px;
-    font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:14.5px;
-    background:linear-gradient(135deg,var(--rose-deep),var(--rose-deeper));
-    color:#fff;border-radius:999px;padding:13px 24px;text-decoration:none;
-    box-shadow:0 14px 26px -12px rgba(185,79,78,0.65);margin-bottom:36px;
+  .watch-note{
+    font-size:14.5px;color:var(--ink-soft);margin:0 0 36px;
   }
+  .watch-note a{color:var(--rose-deeper);font-weight:700;text-decoration:underline;}
 
   .article h2{
     font-size:19px;margin:44px 0 16px;padding-top:8px;border-top:1px solid var(--gray-line);
@@ -225,7 +222,7 @@
           <div class="vb-sub">撮影・編集が終わり次第、こちらに公開します</div>
         </div>
       </div>
-      <a href="https://utage-system.com/line/open/fHHo0sBAFfQf?mtid=pzMlQrDUWQ5S" class="watch-cta">公式LINEに登録して動画を見る</a>
+      <p class="watch-note">動画を観た後は、<a href="#comment">こちらから</a>コメント特典も手に入れてくださいね！</p>
 
       <div class="article">
         <p>脳育コンパス無料オンライン講座、第2話です。脳育コンパスインストラクターのとがみはるかです。前回は、脳育コンパスで学ぶ3つのこと——脳科学の基本、遊びへの取り入れ方、日常の困りごとへの対応——についてお話ししました。今回は、その1つめ「脳科学の基本」をお話ししていきます。</p>
@@ -250,7 +247,7 @@
 
       </div>
 
-      <div class="comment-section">
+      <div class="comment-section" id="comment">
         <h2>動画を見た感想を教えてください</h2>
         <p>ここまでご覧いただき、ありがとうございます。この講座は、見てくださった方と一緒に作っていきたいと思っています。下の質問への答えを、気軽にLINEで送ってください。</p>
         <div class="qbox" id="qtext">■質問1　今回のお話を聞いて、率直にどう思いましたか？
