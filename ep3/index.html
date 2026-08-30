@@ -144,6 +144,48 @@
     margin-top:1px;
   }
 
+  .list-card.teal{border-color:#9FC9C1;}
+  .list-card.teal .ribbon{background:var(--teal);}
+  .list-card .check{
+    flex-shrink:0;color:#3FA55A;font-size:16px;font-weight:700;margin-top:1px;
+  }
+
+  .board{
+    margin:34px 0 28px;padding:14px;
+    background:#C89B5C;border-radius:12px;
+  }
+  .board-inner{
+    position:relative;background:#4C8271;border-radius:8px;
+    padding:34px 26px 44px;
+  }
+  .board-inner h3{
+    color:#fff;text-align:center;font-size:19px;margin:0 0 22px;
+    font-family:"Zen Maru Gothic",sans-serif;
+  }
+  .board-inner ul{list-style:none;margin:0;padding:0;}
+  .board-inner li{
+    color:rgba(255,255,255,0.94);font-size:14.5px;padding:12px 0;
+    border-bottom:1px solid rgba(255,255,255,0.18);
+    display:flex;align-items:flex-start;gap:10px;
+  }
+  .board-inner li:last-child{border-bottom:none;}
+  .board-inner li::before{
+    content:"";flex-shrink:0;width:6px;height:6px;border-radius:50%;
+    background:#8FD8DE;margin-top:8px;
+  }
+  .board-chalk{
+    position:absolute;right:22px;bottom:14px;width:56px;height:20px;
+  }
+  .board-chalk .eraser{
+    position:absolute;right:0;bottom:0;width:40px;height:16px;border-radius:3px;
+    background:#2f6a5f;border:2px solid #1e4a41;
+  }
+  .board-chalk .stick{
+    position:absolute;bottom:16px;width:22px;height:6px;border-radius:2px;
+  }
+  .board-chalk .stick.c1{right:34px;background:#F3D9A0;transform:rotate(-8deg);}
+  .board-chalk .stick.c2{right:14px;background:#8FC7E8;transform:rotate(6deg);}
+
   .comment-section{
     background:var(--paper);border:1px solid var(--gray-line);
     border-radius:var(--radius-lg);padding:26px 24px;margin:44px 0;box-shadow:var(--shadow-soft);
@@ -226,6 +268,24 @@
 
       <div class="article">
         <p>脳育コンパス無料オンライン講座、第3話です。脳育コンパスインストラクターのとがみはるかです。前回は、脳科学の基本と、脳の部位の機能を知ることで、伸ばしたい才能にあわせて刺激すればよいというお話をしました。今回は、脳育コンパスで学ぶ3つのことの2つめ、「遊びの中に脳科学を取り入れること」についてお話ししていきます。</p>
+
+        <div class="board">
+        <div class="board-inner">
+        <h3>第3話で学べること</h3>
+        <ul>
+        <li>「脳科学の遊び」って、特別な教材が必要なの？</li>
+        <li>積み木を「倒す」のは、実は学びの途中ってどういうこと？</li>
+        <li>空間認知能力は、どうやって育っていくの？</li>
+        <li>空間認知能力を育てると、どんな力が伸びるの？</li>
+        <li>いつもの遊びとの関わり方が、どう変わる？</li>
+        </ul>
+        <div class="board-chalk">
+        <div class="stick c1"></div>
+        <div class="stick c2"></div>
+        <div class="eraser"></div>
+        </div>
+        </div>
+        </div>
 
         <h2>「脳科学の遊び」は、特別なものじゃない</h2>
         <p>「脳科学の遊び」と聞くと、脳トレや難しい教材を想像する方もいると思います。でも、今回ご紹介するのは、普通の遊びです。折り紙、あやとり、絵本の読み聞かせ、積み木など、普段の生活にある遊びで十分なんです。</p>
